@@ -16,7 +16,9 @@
     margin-top: auto;
     font-family: Helvetica;
     color: whitesmoke;
-    position: relative
+    position: relative;
+    margin-bottom: 15px;
+    border: 1px solid black;
   }
 
   #menu-heading {
@@ -25,11 +27,12 @@
     color: black;
     font-family: Helvetica;
     text-align: right;
+    border-bottom: 1px solid black;
   }
 
   p {
     text-align: left;
-    color: whitesmoke
+    color: whitesmoke;
   }
   
   /* Simple Responsive Framework. */
