@@ -7,18 +7,7 @@
     margin-bottom: 15px;
   }
   
-  div.row {
-    height: auto;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: auto;
-    font-family: Helvetica;
-    color: whitesmoke;
-    position: relative;
-    width: auto;
-  }
-  
-  div.section {
+  div#container {
     background-color: blue;
     width: 90%;
     height: 150px;
@@ -36,13 +25,12 @@
     position: absolute;
     top: 0%;
     right: 0%;
-    height: 30px;
+    height: 20px;
     background-color: red;
     color: black;
     font-family: Helvetica;
     text-align: right;
     border-bottom: 1px solid black;
-    font-size: 175%;
   }
 
   p {
