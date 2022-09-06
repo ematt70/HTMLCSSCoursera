@@ -1,0 +1,132 @@
+body {
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    font-family: 'Oxygen', sans-serif;
+  }
+  
+  /** HEADER **/
+  #header-nav {
+    background-color: grey;
+    border-radius: 0;
+    border-bottom: 3px solid black;
+  }
+
+  .navbar-brand {
+    padding-top: 10px;
+  }
+
+  .navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+  #nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: black;
+    text-align: center;
+    background-color: #e7e7e7;
+  }
+  #nav-list a:hover {
+    background: yellowgreen;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: 10px;
+  }
+  /* END HEADER */
+
+/* HOME PAGE */
+.chicken {
+  border: 0;
+  background-color: gray;
+}
+
+.description {
+  margin: 0 10px 0 10px;
+}
+  
+  /* END HOME PAGE */
+
+/********** Large devices only **********/
+ @media (min-width: 1200px) {
+  .container-fluid .chicken {
+    height: 1000px;
+
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  /* Home Page */
+  .container-fluid .chicken {
+    height: 1000px;
+  }
+
+
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container-fluid .chicken {
+    height: 1000px;
+  }
+  /* End Home Page */
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: 25px;
+  }
+
+  /* End Header */
+
+  /* Home Page */
+  .container-fluid .chicken {
+    margin-top: 30px;
+    padding: 0;
+    height: 1000px;
+  }
+
+}
+
+
